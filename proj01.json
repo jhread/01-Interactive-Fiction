@@ -1,0 +1,189 @@
+{
+  "passages": [
+    {
+      "text": "You are a 23 year old man who works a dead end job just trying to make ends meet.\nOne random Tuesday morning, you wake up feeling woozy and shrug off the events of the night before. \"Huh, I can't remember what I did last night\" You get ready for the day, and drive to work.\n[[Drive to work->Drive to work]]",
+      "links": [
+        {
+          "name": "Drive to work",
+          "link": "Drive to work",
+          "pid": "2"
+        }
+      ],
+      "name": "Start",
+      "pid": "1",
+      "position": {
+        "x": "279",
+        "y": "586"
+      }
+    },
+    {
+      "text": "You arrive at work and realize that you have a couple options:\n[[Go into work->Work]]\n[[Skip work->Skip work]]",
+      "links": [
+        {
+          "name": "Go into work",
+          "link": "Work",
+          "pid": "6"
+        },
+        {
+          "name": "Skip work",
+          "link": "Skip work",
+          "pid": "3"
+        }
+      ],
+      "name": "Drive to work",
+      "pid": "2",
+      "position": {
+        "x": "557",
+        "y": "579"
+      }
+    },
+    {
+      "text": "You decide to take the day off.\n[[Take the train downtown]]\n[[Get drunk with the boys->Daydrinking]]",
+      "links": [
+        {
+          "name": "Take the train downtown",
+          "link": "Take the train downtown",
+          "pid": "4"
+        },
+        {
+          "name": "Get drunk with the boys",
+          "link": "Daydrinking",
+          "pid": "9"
+        }
+      ],
+      "name": "Skip work",
+      "pid": "3",
+      "position": {
+        "x": "849",
+        "y": "474"
+      }
+    },
+    {
+      "text": "You get off the train & decide to walk to the city market\n[[Walk to the City Market->CityMarket]]",
+      "links": [
+        {
+          "name": "Walk to the City Market",
+          "link": "CityMarket",
+          "pid": "5"
+        }
+      ],
+      "name": "Take the train downtown",
+      "pid": "4",
+      "position": {
+        "x": "700",
+        "y": "300"
+      }
+    },
+    {
+      "text": "You meet a beautiful woman at the city market and have a wonderful day together. You end up falling in love and live the rest of your live happily. One night in your 50s, you go to sleep and...\n[[Go to sleep->Start]]",
+      "links": [
+        {
+          "name": "Go to sleep",
+          "link": "Start",
+          "pid": "1"
+        }
+      ],
+      "name": "CityMarket",
+      "pid": "5",
+      "position": {
+        "x": "553",
+        "y": "292"
+      }
+    },
+    {
+      "text": "You get to work and go see your boss. He fires you. You ponder for a second:\n[[Kill him->KillBoss]]\n[[Leave->LeaveWork]]",
+      "links": [
+        {
+          "name": "Kill him",
+          "link": "KillBoss",
+          "pid": "7"
+        },
+        {
+          "name": "Leave",
+          "link": "LeaveWork",
+          "pid": "8"
+        }
+      ],
+      "name": "Work",
+      "pid": "6",
+      "position": {
+        "x": "554",
+        "y": "731"
+      }
+    },
+    {
+      "text": "Someone sees you stab your boss through the heart and calls the cops. You have no options left but to run.\n[[RUN]]",
+      "links": [
+        {
+          "name": "RUN",
+          "link": "RUN",
+          "pid": "10"
+        }
+      ],
+      "name": "KillBoss",
+      "pid": "7",
+      "position": {
+        "x": "555",
+        "y": "888"
+      }
+    },
+    {
+      "text": "You leave work and realize you have more choices to make:\n[[Go hang out with the boys->Daydrinking]]\n[[Take the train downtown]]",
+      "links": [
+        {
+          "name": "Go hang out with the boys",
+          "link": "Daydrinking",
+          "pid": "9"
+        },
+        {
+          "name": "Take the train downtown",
+          "link": "Take the train downtown",
+          "pid": "4"
+        }
+      ],
+      "name": "LeaveWork",
+      "pid": "8",
+      "position": {
+        "x": "735",
+        "y": "646"
+      }
+    },
+    {
+      "text": "You go over to your friend's house and get drunk. Nothing much really happens that day. You go home around 1am and pass out on the couch.\n[[Wake up the next morning->Start]]",
+      "links": [
+        {
+          "name": "Wake up the next morning",
+          "link": "Start",
+          "pid": "1"
+        }
+      ],
+      "name": "Daydrinking",
+      "pid": "9",
+      "position": {
+        "x": "554",
+        "y": "439"
+      }
+    },
+    {
+      "text": "Your efforts are in vain. The police catch you, and in your fit of murderous rage, you attempt to stab an officer, and get shot and die in the process.\n[[You Die, and everything goes back for a second, before...->Start]]",
+      "links": [
+        {
+          "name": "You Die, and everything goes back for a second, before...",
+          "link": "Start",
+          "pid": "1"
+        }
+      ],
+      "name": "RUN",
+      "pid": "10",
+      "position": {
+        "x": "288",
+        "y": "889"
+      }
+    }
+  ],
+  "name": "Ex1c_C220_ReadJack",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "0B832108-BE31-4E40-9964-0B291A2BEC72"
+}
